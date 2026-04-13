@@ -18,7 +18,7 @@ You should receive a response within 24 hours. If for some reason you do not, pl
 
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
-  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
+  * Type of issue (e., cross-site scripting, etc.)
   * Full paths of source file(s) related to the manifestation of the issue
   * The location of the affected source code (tag/branch/commit or direct URL)
   * Any special configuration required to reproduce the issue
@@ -28,7 +28,7 @@ Please include the requested information listed below (as much as you can provid
 
 This information will help us triage your report more quickly.
 
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) page for more details about our active programs.
+If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Programbounty) page for more details about our active programs.
 
 ## Preferred Languages
 
@@ -36,6 +36,10 @@ We prefer all communications to be in English.
 
 ## Policy
 
-Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://aka.ms/security.md/cvd).
+ [Coordinated Vulnerability Disclosure](https://aka.ms/security.md/cvd).
 
 <!-- END MICROSOFT SECURITY.MD BLOCK -->
+
+---
+
+> **Note (personal fork):** This is a personal fork of [microsoft/BitNet](https://github.com/microsoft/BitNet) used for learning and experimentation. For any security issues specific to this fork, please open a private issue or contact me directly. Upstream security concerns should be reported to Microsoft as described above.
