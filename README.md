@@ -24,13 +24,12 @@ https://github.com/user-attachments/assets/7f46b736-edec-4828-b809-4be780a3e5b1
 ## Personal Notes
 
 > **Fork notes (for my own reference):** I'm using this primarily to experiment with the 2B model locally on my x86 Linux machine. The `src/README.md` optimization guide is especially useful — I saw ~1.8x speedup with tiling enabled on my Ryzen 7. Next I want to try the GPU kernel on my RTX 3070.
+>
+> **RTX 3070 GPU results (updated):** Got the GPU kernel working. Using `--n-gpu-layers 32` gave me roughly 28 tok/s on the 2B model — noticeably faster than CPU-only. Had to build with `-DGGML_CUDA=ON` and make sure CUDA 12.x was on PATH. Worth it.
 
 ## What's New:
 - 01/15/2026 [BitNet CPU Inference Optimization](https://github.com/microsoft/BitNet/blob/main/src/README.md) ![NEW](https://img.shields.io/badge/NEW-red)
 - 05/20/2025 [BitNet Official GPU inference kernel](https://github.com/microsoft/BitNet/blob/main/gpu/README.md)
 - 04/14/2025 [BitNet Official 2B Parameter Model on Hugging Face](https://huggingface.co/microsoft/BitNet-b1.58-2B-4T)
 - 02/18/2025 [Bitnet.cpp: Efficient Edge Inference for Ternary LLMs](https://arxiv.org/abs/2502.11880)
-- 11/08/2024 [BitNet a4.8: 4-bit Activations for 1-bit LLMs](https://arxiv.org/abs/2411.04965)
-- 10/21/2024 [1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs](https://arxiv.org/abs/2410.16144)
-- 10/17/2024 bitnet.cpp 1.0 released.
-- 03/21/2024 [The-Era-of-1-bit-LLMs__Training_Tips_Code_FAQ](https://github.com/micr
+- 11/08/2024 [BitNet a4
