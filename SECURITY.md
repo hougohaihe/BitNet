@@ -12,25 +12,21 @@ If you believe you have found a security vulnerability in any Microsoft-owned re
 
 Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report).
 
-If you prefer to submit without logging in, send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://aka.ms/security.md/msrc/pgp).
-
+If you prefer to submit without logging in, send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://aka.ms/security.md/
 You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at [microsoft.com/msrc](https://www.microsoft.com/msrc). 
 
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
   * Type of issue (e.g., buffer overflow, SQL injection, cross-site scripting, etc.)
   * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
+  * The location of the affected source code URL)
   * Any special configuration required to reproduce the issue
   * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+  * Proof-of-concept or exploit code of the issue, including how an attacker might exploit the issue
 
 This information will help us triage your report more quickly.
 
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) page for more details about our active programs.
-
-## Preferred Languages
+If you are reporting for a bug visit our [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) page for more details about our## Preferred Languages
 
 We prefer all communications to be in English.
 
@@ -43,3 +39,5 @@ Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https:
 ---
 
 > **Note (personal fork):** This is a personal fork of [microsoft/BitNet](https://github.com/microsoft/BitNet) used for learning and experimentation. For any security issues specific to this fork, please open a private issue or contact me directly. Upstream security concerns should be reported to Microsoft as described above.
+>
+> **Reminder to self:** This fork does not introduce any new network-facing features or authentication logic, so the attack surface beyond the upstream project should be minimal. If I ever add scripts that handle external input or network requests, revisit this file and document the appropriate contact/disclosure steps.
