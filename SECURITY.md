@@ -8,9 +8,9 @@ If you believe you have found a security vulnerability in any Microsoft-owned re
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please report them to the Microsoft Security Response Center (MS.microsoft.com/create-report](https://aka.ms/securityreport).
+Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://aka.ms/securityreport](https://aka.ms/securityreport).
 
-If send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://aka.ms/security.md/msrc/pgp).
+If send email to [secure@microsoft.com](  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://aka.ms/security.md/msrc/pgp).
 
 You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at [microsoft.com/msrc](https://www.microsoft.com/msrc).
 
@@ -36,6 +36,6 @@ Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https:
 
 ---
 
-> **Note (personal fork):** This is a personal fork of [microsoft/BitNet](https://github.com/microsoft/BitNet) used for learning and experimentation. For any security issues specific to this fork, please open a private issue or contact me directly. Upstream security concerns should be reported to Microsoft as described above.
+> **Note (personal fork):** ThisBitNet](https://github.com/microsoft/BitNet) used for learning and experimentation. For any security issues specific to this fork, please open Upstream security concerns should be reported to Microsoft as described above.
 >
-> **Reminder to self:** This fork does not introduce any new network-facing features or authentication logic, so the attack surface beyond the upstream project should be minimal. Still, avoid committing any local model weights, API keys, or personal data into this repo.
+> **Reminder to self:** This fork does not introduce any new network-facing features or authentication logic, so the attack surface beyond the upstream project should be minimal. Still, avoid committing any local model weights, API keys, or personal data into this repository. Double-check with `git status` and review `.gitignore` before pushing.
