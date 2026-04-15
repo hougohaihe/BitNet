@@ -36,6 +36,11 @@ Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https:
 
 ---
 
-> **Note (personal fork):** ThisBitNet](https://github.com/microsoft/BitNet) used for learning and experimentation. For any security issues specific to this fork, please open Upstream security concerns should be reported to Microsoft as described above.
+> **Note (personal fork):** This is a personal fork of [microsoft/BitNet](https://github.com/microsoft/BitNet) used for learning and experimentation. For any security issues specific to this fork, please open an issue here. Upstream security concerns should be reported to Microsoft as described above.
 >
 > **Reminder to self:** This fork does not introduce any new network-facing features or authentication logic, so the attack surface beyond the upstream project should be minimal. Still, avoid committing any local model weights, API keys, or personal data into this repository. Double-check with `git status` and review `.gitignore` before pushing.
+>
+> **Checklist before pushing:**
+> - [ ] No model weight files (`.bin`, `.gguf`, `.pt`, `.ckpt`) accidentally staged
+> - [ ] No `.env` files or hardcoded API keys in source
+> - [ ] `.gitignore` up to date
