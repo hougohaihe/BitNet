@@ -85,10 +85,11 @@ setup(
     ],
     keywords=[
         "llm",
-        "ization",
+        "quantization",
         "bitnet",
         "1-bit",
-        "language"inference",
+        "language",
+        "inference",
         "transformers",
     ],
     include_package_data=True,
